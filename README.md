@@ -1,8 +1,8 @@
- Project Overview
+### Project Overview
 This project performs data cleaning and visualization of student performance data using Python.
 It analyzes how study hours and previous scores relate to final exam scores through multiple chart types.
 
- Objective
+### Objective
 Load and explore cleaned student performance dataset (clnd_stdnt_prfrm.csv)
 Visualize the relationship between study hours and previous scores
 Compare average studied hours, previous marks, and annual marks
