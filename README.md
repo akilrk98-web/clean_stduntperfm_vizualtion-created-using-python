@@ -8,18 +8,18 @@ Visualize the relationship between study hours and previous scores
 Compare average studied hours, previous marks, and annual marks
 Analyze distribution of final scores
 Understand how study time impacts final exam results
- Libraries Used
+### Libraries Used
 Library	Purpose
 pandas	Load and manipulate the dataset
 matplotlib	Bar chart and Pie chart plotting
 seaborn	Scatter plot and Histogram with KDE
- Project Structure
+### Project Structure
 clean_stduntperfm_vizualtion-created-using-python/
 
 ── clean_stduntperfm_vizualtion.ipynb   # Main Jupyter Notebook
 ── clnd_stdnt_prfrm.csv                 # Cleaned student performance dataset
 ── README.md                            # Project documentation
- Visualizations Included
+### Visualizations Included
 1.  Bar Chart — Performance Score
 X-axis: Hours Studied
 Y-axis: Previous Score
@@ -37,12 +37,12 @@ Reveals correlation between study time and final results
 4.  Histogram — Annual Mark Distribution
 Distribution of Final Scores with KDE curve
 Shows the spread and frequency of student marks
- Dataset Columns Used
+### Dataset Columns Used
 Column	Description
 Hours Studied	Number of hours the student studied
 Pervious Score	Score from previous exam
 final Scores	Final exam score (annual marks)
- How to Run
+### How to Run
 Clone the repository:
 
 git clone https://github.com/akilrk98-web/clean_stduntperfm_vizualtion-created-using-python.git
@@ -57,7 +57,7 @@ Open the Jupyter Notebook:
 jupyter notebook clean_stduntperfm_vizualtion.ipynb
 Run all cells to see the visualizations.
 
- Key Insights
+### Key Insights
 Students who studied more hours generally scored higher in final exams
 There is a visible positive correlation between study hours and final scores
 The histogram shows most students scored in the mid-range band
